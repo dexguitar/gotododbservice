@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+package dbservice;
+
+option go_package = "dexguitar.dbservice.v1;dbservicev1";
+
+service DBService {
+    rpc GetAllTodos (GetAllTodosRequest) returns (GetAllTodosResponse);
+}
+
+// Empty request message - no parameters needed
+message GetAllTodosRequest {}
+
+// Response message containing the list of todos
+message GetAllTodosResponse {
+    repeated Todo todos = 1;
+}
+
+// Todo message definition
+message Todo {
+    int64 id = 1;
+    string title = 2;
+    string content = 3;
+    bool done = 4;
+}
