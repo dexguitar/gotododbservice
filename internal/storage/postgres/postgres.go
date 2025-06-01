@@ -4,7 +4,7 @@ import (
 	"context"
 	"fmt"
 
-	dbservicev1 "github.com/dexguitar/gotododbservice/internal/grpc/gen/go/dbservice"
+	dbservicev1 "github.com/dexguitar/gotodoprotos/gen/go/dbservice"
 	"github.com/jmoiron/sqlx"
 
 	_ "github.com/lib/pq"

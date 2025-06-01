@@ -3,7 +3,7 @@ package grpc
 import (
 	"context"
 
-	dbservicev1 "github.com/dexguitar/gotododbservice/internal/grpc/gen/go/dbservice"
+	dbservicev1 "github.com/dexguitar/gotodoprotos/gen/go/dbservice"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"

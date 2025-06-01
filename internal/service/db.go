@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"log/slog"
 
-	dbservicev1 "github.com/dexguitar/gotododbservice/internal/grpc/gen/go/dbservice"
+	dbservicev1 "github.com/dexguitar/gotodoprotos/gen/go/dbservice"
 )
 
 type DBSrv struct {

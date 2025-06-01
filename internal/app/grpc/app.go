@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"net"
 
-	dbgrpc "github.com/dexguitar/gotododbservice/internal/grpc"
+	dbgrpc "github.com/dexguitar/gotododbservice/internal/grpc/dbsrv"
 	"google.golang.org/grpc"
 )
 
